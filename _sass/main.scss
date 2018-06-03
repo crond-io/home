@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// 1. Import the initial variables
+@import '../node_modules/bulma/sass/utilities/initial-variables';
+@import '../node_modules/bulma/sass/utilities/mixins';
+
+// Typography
+$family-primary: 'Josefin Sans';
+$size-1: 8rem;
+$size-2: 2.2rem;
+$size-3: 2rem;
+$size-4: 6rem;
+$size-5: 5rem;
+$size-6: 3.8rem;
+
+// 4. Import the rest of Bulma
+@import '../node_modules/bulma/bulma';
+
+body {
+  margin: 1.5rem;
+}
+
+.navbar-brand {
+  align-items: center;
+}
+
+.stars {
+  text-align: center;
+  font-weight: 400;
+}
+
+.stars-touch {
+  margin-top: 0.7rem;
+  margin-bottom: -2rem;
+  letter-spacing: 1.33rem;
+}
+
+.stars-desktop {
+  margin-top: 4rem;
+  letter-spacing: 2rem;
+}
+
+.tagline {
+  text-align: center;
+  letter-spacing: -0.1rem;
+  font-weight: 800;
+  margin-top: -4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
